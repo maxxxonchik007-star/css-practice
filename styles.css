@@ -1,0 +1,52 @@
+/* Скидання стилів за замовчуванням */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+/* Загальні налаштування body */
+body {
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Секція Header */
+.header {
+  height: 30vh;
+  background-color: #007bff; /* Синій */
+  display: flex;
+  align-items: center;      /* Вертикально по центру */
+  justify-content: flex-start; /* Горизонтально зліва */
+  padding-left: 20px;       /* Невеликий відступ від краю */
+}
+
+/* Секція Main */
+.main {
+  height: 40vh;
+  background-color: #28a745; /* Зелений */
+  display: flex;
+  align-items: center;      /* Вертикально по центру */
+  justify-content: center;  /* Горизонтально по центру */
+}
+
+/* Секція Footer */
+.footer {
+  height: 30vh;
+  background-color: #ffc107; /* Жовтий */
+  display: flex;
+  align-items: center;      /* Вертикально по центру */
+  justify-content: flex-end;   /* Горизонтально праворуч */
+  padding-right: 20px;      /* Невеликий відступ від краю */
+}
+
+/* Стилізація текстового блоку */
+.text {
+  font-size: 14px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7); /* Темна плашка під текстом */
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+}
